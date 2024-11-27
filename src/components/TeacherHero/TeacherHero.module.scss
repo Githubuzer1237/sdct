@@ -1,0 +1,32 @@
+ /* teacher page */
+ .teacher {
+   padding: 60px 0 60px 0;
+ }
+  
+ .adaptivrotebal {
+   max-width: 1300px;
+   margin: 0 auto;
+   padding: 0 15px;
+ }
+ 
+
+ 
+ .teacher__wrapper {
+ }
+ .teacher__title {
+   text-align: center;
+   font-size: 44px;
+ }
+ .teacher__cards {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 40px;
+   padding-top: 60px;
+   @media (max-width: 1000px) {
+     grid-template-columns: 1fr;
+     .teacher__card {
+       margin: 0 auto;
+     }
+   }
+ }
+ 
