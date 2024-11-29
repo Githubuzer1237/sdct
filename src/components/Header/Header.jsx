@@ -26,7 +26,7 @@ const Header = () => {
               <Link onClick={CloseMenu} to={'/'}>Главная</Link>
               <a href="">Группа</a>
 
-              <Link  className={s.dropdown} to={'/'}>
+              <Link onClick={CloseMenu}   className={s.dropdown} to={'/news'}>
               Новости
               <svg
                   width="16"
@@ -41,10 +41,10 @@ const Header = () => {
                   />
                 </svg>
               <div>
-                   <Link to={'/'}>Все новости</Link>
-                   <Link to={'/'}>Общество</Link>
-                   <Link to={'/'}>Технологии</Link>
-                   <Link to={'/'}>Культура</Link>
+                   <Link onClick={CloseMenu} to={'/news'}>Все новости</Link>
+                   <Link onClick={CloseMenu} to={'/news#society'}>Общество</Link>
+                   <Link onClick={CloseMenu} to={'/news#tech'}>Технологии</Link>
+                   <Link onClick={CloseMenu} to={'/news#culture'}>Культура</Link>
               </div>
               </Link>
              

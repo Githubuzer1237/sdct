@@ -12,7 +12,10 @@
   padding: 70px;
   //  background-color: #3e6ae1;
    background: linear-gradient(135deg, #13072e, #4717b0);
-
+ position: sticky;
+ top: 0;
+ z-index: 2;
+//  width: 100%;
   .links {
    display: flex;
    gap: 45px;
