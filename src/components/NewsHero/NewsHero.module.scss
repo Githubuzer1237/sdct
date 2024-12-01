@@ -18,50 +18,10 @@
 .nav {
    display: flex;
    gap: 30px;
+   flex-wrap: wrap;
 
    a {
       color: #fff;
       text-decoration: none;
-   }
-}
-.news {
-   padding: 60px;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   flex-wrap: wrap;
-   p {
-      max-width: 1000px;
-      width: 100%;
-   }
-
-   @media (max-width: 1350px) {
-      justify-content: center;
-      gap: 60px;
-      flex-direction: column-reverse;
-   }
-}
-
-.newslogo {
-   img {
-      max-width: 300px;
-      width: 100%;
-   }
-}
-
-.likes {
-   display: flex;
-   gap: 20px;
-
-   button {
-      padding: 30px;
-   border: none;
-   background-color: rgb(248, 243, 243);
-transition: 0.3s;
-font-size: 40px;
-   &:hover {
-     background-color: gray;
-   
-   }
    }
 }
