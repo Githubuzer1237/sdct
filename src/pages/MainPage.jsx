@@ -23,18 +23,7 @@ const MainPage = () => {
     return (
        <>
             {userData ? (
-                // <div>
-                //     <h2>Добро пожаловать, {userData.firstName}!</h2>
-                //     <p>Имя: {userData.firstName}</p>
-                //     <p>Фамилия: {userData.lastName}</p>
-                //     <p>Хобби: {userData.hobby}</p>
-                //     <p>Образование/Работа: {userData.education}</p>
-                //     <p>Аватарка: <img src={userData.avatar} alt="Аватарка" width="100" /></p>
-                //     <button onClick={handleLogout}>Выйти</button>
-                // </div>
-
-
-                // <div className="container__main">
+            
                     <div className={s.sects}>
                     <div className={s.section}>
                     <h2 >Группы</h2>
@@ -63,7 +52,7 @@ const MainPage = () => {
                         </div>
                     </div>
                     </div>
-                // </div>
+    
             ) : (
                 <p>Загрузка...</p>
             )}

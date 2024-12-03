@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import s from './NewsText.module.scss'
 const NewsText = ( {p, ImgSrc} ) => {
-   const [like, setLike] = useState(0)
+   const [like, setLike] = useState(1753)
    const [liked, setLiked] = useState(false)
   
 
@@ -45,4 +45,3 @@ const NewsText = ( {p, ImgSrc} ) => {
 }
 
 export default NewsText
-
